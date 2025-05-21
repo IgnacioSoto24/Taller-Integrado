@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+    <div class="detalle">
+        <h2>{{ juego.nombre }}</h2>
+        <p><strong>Descripción:</strong> {{ juego.descripcion }}</p>
+        <p><strong>Plataforma:</strong> {{ juego.plataforma }}</p>
+        <a href="{{ url_for('lista_juegos') }}">← Volver a la lista</a>
+    </div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+    <h2>Lista de Juegos</h2>
+    <div class="grid">
+        {% for juego in juegos %}
+            <div class="tarjeta">
+                <h3>{{ juego.nombre }}</h3>
+                <p><strong>Plataforma:</strong> {{ juego.plataforma }}</p>
+                <a href="{{ url_for('detalle_juego', slug=juego.slug) }}">Ver Detalles</a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
