@@ -42,5 +42,5 @@ Esta es una aplicación web desarrollada con **Flask** que muestra un ranking de
 
 1. Cloná este repositorio o descargá el proyecto:
    ```bash
-   git clone https://github.com/tu_usuario/mi_app_juegos.git
+   git clone (https://github.com/IgnacioSoto24/Taller-Integrado)
    cd mi_app_juegos
