@@ -1,18 +1,18 @@
 # 🎮 Ranking de Videojuegos
 
-Esta es una aplicación web desarrollada con **Flask** que muestra un ranking de videojuegos destacados, permitiendo explorar una lista de juegos con imágenes, títulos, descripciones y detalles individuales.
+Esta es una aplicación web desarrollada con **Flask** que muestra un ranking de videojuegos destacados, permitiendo explorar una lista de juegos con títulos, descripciones y detalles individuales.
 
 ---
 
 ## ✨ Funcionalidades
 
-- Página de inicio con bienvenida.
+- Página de inicio con mensaje de bienvenida.
 - Ruta para ver todos los videojuegos.
-- Ruta para ver el detalle de cada videojuego usando slugs.
-- Estilo visual agradable con CSS.
+- Ruta para ver el detalle de cada videojuego usando slugs en la URL.
+- Estilo visual mejorado con CSS personalizado.
 - Uso de plantillas HTML con `Jinja2`.
-- Datos cargados desde una estructura en Python (listas y diccionarios).
-- Imágenes cargadas desde URLs externas.
+- Datos cargados desde estructuras de Python (listas y diccionarios).
+- Código simple y educativo, ideal para aprender Flask.
 
 ---
 
@@ -20,10 +20,11 @@ Esta es una aplicación web desarrollada con **Flask** que muestra un ranking de
 
 - `mi_app_juegos/`
   - `app.py` — Archivo principal con rutas Flask.
-  - `datos.py` — Datos de videojuegos en diccionarios.
+  - `datos.py` — Lista de videojuegos en formato diccionario.
   - `static/`
-    - `estilos.css` — Estilo CSS personalizado.
+    - `estilo.css` — Archivo CSS con los estilos personalizados.
   - `templates/`
+    - `base.html` — Plantilla base común.
     - `index.html` — Página de inicio.
     - `juegos.html` — Página con lista de juegos.
     - `detalle.html` — Página de detalle para cada juego.
@@ -35,7 +36,6 @@ Esta es una aplicación web desarrollada con **Flask** que muestra un ranking de
 
 - Python 3.x
 - Flask
-
 ---
 
 ## 🚀 Instrucciones de instalación y ejecución
